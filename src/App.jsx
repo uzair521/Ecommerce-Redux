@@ -27,7 +27,7 @@ const theme = createTheme({
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-
+  console.log(searchTerm,'searchTerm')
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
